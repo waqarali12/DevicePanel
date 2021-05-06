@@ -1,0 +1,9 @@
+C:\Users\waqar.zaidi\Desktop\_prototype\DevicePanel\DevicePanel.DAL\bin\Debug\netstandard2.0\DevicePanel.DAL.deps.json
+C:\Users\waqar.zaidi\Desktop\_prototype\DevicePanel\DevicePanel.DAL\bin\Debug\netstandard2.0\DevicePanel.DAL.dll
+C:\Users\waqar.zaidi\Desktop\_prototype\DevicePanel\DevicePanel.DAL\bin\Debug\netstandard2.0\DevicePanel.DAL.pdb
+C:\Users\waqar.zaidi\Desktop\_prototype\DevicePanel\DevicePanel.DAL\obj\Debug\netstandard2.0\DevicePanel.DAL.csprojAssemblyReference.cache
+C:\Users\waqar.zaidi\Desktop\_prototype\DevicePanel\DevicePanel.DAL\obj\Debug\netstandard2.0\DevicePanel.DAL.AssemblyInfoInputs.cache
+C:\Users\waqar.zaidi\Desktop\_prototype\DevicePanel\DevicePanel.DAL\obj\Debug\netstandard2.0\DevicePanel.DAL.AssemblyInfo.cs
+C:\Users\waqar.zaidi\Desktop\_prototype\DevicePanel\DevicePanel.DAL\obj\Debug\netstandard2.0\DevicePanel.DAL.csproj.CoreCompileInputs.cache
+C:\Users\waqar.zaidi\Desktop\_prototype\DevicePanel\DevicePanel.DAL\obj\Debug\netstandard2.0\DevicePanel.DAL.dll
+C:\Users\waqar.zaidi\Desktop\_prototype\DevicePanel\DevicePanel.DAL\obj\Debug\netstandard2.0\DevicePanel.DAL.pdb

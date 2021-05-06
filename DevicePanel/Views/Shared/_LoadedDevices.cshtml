@@ -1,0 +1,26 @@
+﻿@model IEnumerable<DevicePanel.DAL.DomainModels.Entities.Device>
+
+    <div class="row">
+        <div class="col-md-8">
+            <h1 class="display-4">Loaded Devices</h1>
+            <table class="table table-bordered table-condensed">
+                <thead>
+                    <tr>
+                        <th scope="col">Device Name</th>
+                        <th scope="col">Added Date</th>
+                    </tr>
+                </thead>
+
+                @foreach (var device in Model)
+                {
+                    <tr>
+                        <td>@device.Name</td>
+                        <td>
+                            @device.Added.ToString("dd-MM-yyyy")
+                        </td>
+                    </tr>
+
+                }
+            </table>
+        </div>
+    </div>

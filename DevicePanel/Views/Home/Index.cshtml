@@ -1,0 +1,47 @@
+﻿@model DevicePanel.Models.HomePageViewModel
+
+<div class="container">
+    
+    @{
+        if (Model.Devices.Any())
+        {
+            Html.RenderPartial("_LoadedDevices", Model.Devices);
+        }
+    }
+
+    <div class="row">
+        <div class="col-md-8 bg-info">
+            <div class="form-group">
+                <h1 class="display-4">Register Device</h1>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="txt-reg" placeholder="New Device">
+                </div>
+            </div>
+            <button id="btn-reg" class="btn btn-primary" onclick="callBack.registerDevice()">Register</button>
+            <a class="btn btn-info btn-sm" href="/" role="button">Reload Devices</a>
+        </div>
+    </div>
+</div>
+
+<script>
+    var callBack = {
+        registerDevice: function () {
+            var device = $("#txt-reg").val();
+            if (device !== null && device !== "") {
+                $.ajax({
+                    type: "POST",
+                    url: '/api/register?device=' + device,
+
+                    success: function (results) {
+                        $("#txt-reg").val("");
+                        console.log(results);
+                    },
+
+                    error: function (results) {
+                        alert("invalid request!");
+                    }
+                });
+            }
+        }
+    }
+</script>

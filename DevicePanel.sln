@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevicePanel", "DevicePanel\DevicePanel.csproj", "{4AEB7BC8-45BC-4F96-83DA-9F529037F636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevicePanel.DAL", "DevicePanel.DAL\DevicePanel.DAL.csproj", "{7216A18A-A6E0-491C-A389-E2B169A953AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AEB7BC8-45BC-4F96-83DA-9F529037F636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AEB7BC8-45BC-4F96-83DA-9F529037F636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AEB7BC8-45BC-4F96-83DA-9F529037F636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AEB7BC8-45BC-4F96-83DA-9F529037F636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7216A18A-A6E0-491C-A389-E2B169A953AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7216A18A-A6E0-491C-A389-E2B169A953AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7216A18A-A6E0-491C-A389-E2B169A953AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7216A18A-A6E0-491C-A389-E2B169A953AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBED4138-AAAC-4803-AD48-CBB492A0260E}
+	EndGlobalSection
+EndGlobal
